@@ -14,7 +14,7 @@ print(Student.count)
 B = Student("Jack")
 print(Student.count) # Now is Access Class Attribute
 
-## 限制Class Attribute Create
+# 限制 Class Attribute Create
 class Student(object):
     __slots__ = ("name", "Age")
 # Not Effect for subClass
