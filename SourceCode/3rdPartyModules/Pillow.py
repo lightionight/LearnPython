@@ -7,5 +7,5 @@ usually just simply  pip install pillow for install
 
 '''
 
-from PIL import Image
+from PIL import pillow
 
